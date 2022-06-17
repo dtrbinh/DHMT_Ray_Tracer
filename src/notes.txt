@@ -1,0 +1,7 @@
+for each pixel
+    compute viewing ray
+    pixelcolor = castray
+
+castray(ray)
+    if (hits something in scene, we need t)
+
