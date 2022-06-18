@@ -1,68 +1,35 @@
 ## Realtime raytracing
 
-Implemented with OpenGL fragment shaders.
-
-Scene setup in main.cpp source file.
-
-### Features
-
-Contains following geometric primititives:
-- Sphere
-- Box
-- Ring
-- Plane
-- Torus
-- Quadric surfaces:
-  - Ellipsoid
-  - Cone
-  - Cylinder
-  - Elliptic paraboloid
-  - Hyperbolic paraboloid
-  - Elliptic hyperboloid
-  
-Also:  
-- SMAA antialiasing
-- Texturing for sphere, box, ring
-- Cubemaps
-- Rotations with quaternions
-
-
-### Controls:
+### Control camera view:
 
 Rotate camera with mouse
 
-Movement:
+Movements:
 
 - WASD
 - Space - up
 - Ctrl - down
-- Shift (hold) - boost
-- Alt (hold) - slowdown
+- Shift (hold) - object's speed boost
+- Alt (hold) - object's speed slowdown
 
 ### Requirements
 
-* CMake (>= 3.0.2)
+* CMake (>= 3.0.2). Download and install for Windows x64: [here](https://github.com/Kitware/CMake/releases/download/v3.24.0-rc1/cmake-3.24.0-rc1-windows-x86_64.msi). Remember add PATH.
 * GPU with OpenGL (>= 3.3) support
 * GLM (included)
 * GLFW, should be automatically found by CMake (win64 binaries included)
 
 ### Build
+First, run cmd on folder /src/
+
+Second, 
 ```sh
 mkdir bin
 cd bin
 cmake ..
 cmake --build .
 ```
-#### GLFW for linux:
-```sh
-sudo apt install libglfw3-dev
-```
-#### GLFW for windows:
-GLFW binaries included (common/GLFW), glfw3.lib compiled for Visual Studio 2019
 
-You can use binaries for other VS versions from GLFW/win-x64 directory, or compile by yourself.
-
-### Screenshots
-
-![](media/v2.png)
-![](media/animation.gif)
+Next, run file bin/RayTracing_OpenGL.sln
+### Release
+- Download quick review version at [here]()
