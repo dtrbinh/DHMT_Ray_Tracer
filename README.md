@@ -32,4 +32,4 @@ cmake --build .
 
 Next, run file bin/RayTracing_OpenGL.sln
 ### Release
-- Download quick review version at [here]()
+- Download quick review version at [here](https://github.com/dtrbinh/DHMT_Ray_Tracer/releases/download/v1.0/demo_realtime_raytracing_v1.0.exe)
